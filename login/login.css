@@ -54,7 +54,7 @@ form {
 
 .btnColor {
   position: absolute;
-  width: 108px;
+  width: 98px;
   height: 100%;
   background: linear-gradient(to right, #5956e9, #a963f8);
   border-radius: 30px;
@@ -87,10 +87,14 @@ button[type="submit"] {
   margin: 10px 0 0 5px;
   width: 80%;
   font-size: 13px;
+  display: flex;
+  align-items: center;
 }
-
+.divCheck span{
+  margin-left: 4px;
+}
 .divCheck span a{
-    color: #000;
+    color: #000; 
 }
 
 #signin {
@@ -107,8 +111,16 @@ i {
   padding: 10px 10px;
 }
 
+.iUsuario {
+  top: 40px;
+}
+
 .iEmail {
   top: 40px;
+}
+
+.iEmail2 {
+  top: 115px;
 }
 
 .iPassword {
