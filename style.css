@@ -179,6 +179,7 @@ body {
 #start{
     display: flex;
     padding: 30px;
+    overflow-x: hidden;
 
 }
 #start .text{
@@ -204,7 +205,26 @@ body {
 #start h1 span{
     color: #08b4f4;
 }
+#start i{
+    background-color: red;
+}
+
+
+
+
+
+
 /* MAIN FINAL */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -299,4 +319,38 @@ body {
     }
 
     /* MENU FIM */
+}
+
+
+/* ANIMAÇÕES */
+.transition{
+    display: flex;
+    flex-direction: column;
+    margin-top: -7vh;
+    padding: 0 50px;
+    color: #057eaa;
+    font-size: 2rem;
+    animation-name: sobedesce;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.transition i:not(:first-child){
+    margin-top: -15px;
+}
+
+
+
+@keyframes sobedesce {
+    0%{
+        margin-top: -7vh;
+    }   
+
+    50%{
+        margin-top: -2vh;
+    }
+
+    100%{
+        margin-top: -7vh;
+    }
 }
