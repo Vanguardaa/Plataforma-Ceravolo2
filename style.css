@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald&family=Poppins:wght@100;200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap');
 /* FONTES POSSÍVELS
 font-family: 'Open Sans', sans-serif;
 font-family: 'Kanit', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif; 
 font-family: 'Lisu Bosa', serif;  
+font-family: 'Aldrich', sans-serif;
+font-family: 'Montserrat', sans-serif;
 */
 
 
@@ -167,6 +171,38 @@ body {
 }
 .right{
     width: 50vw;
+}
+/* MAIN FINAL */
+
+
+/* MAIN COMEÇO */
+#start{
+    display: flex;
+    padding: 30px;
+
+}
+#start .text{
+    float: left;
+    position: relative;
+    z-index: 5;
+}
+#start .text h1{
+    font-size: 5rem;
+    font-family: 'Aldrich', sans-serif;
+    white-space: nowrap;
+
+}
+#start .text p{
+    padding-right: 22vw;
+    font-family: 'Montserrat', sans-serif;
+}
+#start img.img{
+    z-index: 4;
+    width: 800px;
+    margin-left: -14vw;
+}
+#start h1 span{
+    color: #08b4f4;
 }
 /* MAIN FINAL */
 
