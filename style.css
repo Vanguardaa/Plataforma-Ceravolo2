@@ -228,9 +228,10 @@ body {
 /* CARDS */
 #cards {
     display: flex;
-    margin-top: 10vh;
-    padding: 10px;
+    margin-top: 17vh;
+    padding: 15px;
     flex-wrap: wrap;
+    position: absolute;
 
 
 }
@@ -476,6 +477,7 @@ body {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     z-index: 1;
+    position: absolute;
 }
 
 .transition i:not(:first-child) {
