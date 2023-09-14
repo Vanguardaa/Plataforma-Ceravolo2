@@ -201,6 +201,8 @@ body {
     z-index: 4;
     width: 800px;
     margin-left: -14vw;
+    border: 1px solid #057eaa;
+    border-radius: 10px;
 }
 #start h1 span{
     color: #08b4f4;
@@ -212,7 +214,44 @@ body {
 
 
 
+/* CARDS */
+#cards{
+    display: flex;
+    margin-top: 10vh;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+#cards .card{
+    padding: 30px;
+    margin: 5px;
+    background-color: #0e1414;
+    border: 1px solid #08b4f4;
+    max-width: 30vw;
+    min-width: 300px;
+    border-radius: 5px 5px 20px 5px;
+}
+#cards .card h1{
+    font-size: 1.7rem;
+    font-family: 'Aldrich', sans-serif;
+    margin: 10px 0;
+}
+#cards .card p{
+    font-size: .8rem;
+    font-family: 'montserrat', sans-serif;
+}
+#cards .card i{
+    font-size: 1.6rem;
+}
 
+
+
+
+/* CORES COMEÇO*/
+.mat{color: #249cff;}
+.port{color: #ff936c ;}
+.hist{color: #a52a2a;}
+.geo{color: #008000;}
+/* CORES FINAL */
 
 /* MAIN FINAL */
 
@@ -334,6 +373,7 @@ body {
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    z-index: 1;
 }
 .transition i:not(:first-child){
     margin-top: -15px;
@@ -341,7 +381,7 @@ body {
 
 
 
-@keyframes sobedesce {
+@keyframes sobeesce {
     0%{
         margin-top: -7vh;
     }   
