@@ -218,17 +218,18 @@ body {
 #cards{
     display: flex;
     margin-top: 10vh;
-    padding: 50px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 #cards .card{
     padding: 30px;
     margin: 5px;
     background-color: #0e1414;
-    border: 1px solid #08b4f4;
-    max-width: 30vw;
+    border: 1px solid #354f5a;
+    max-width: 20vw;
     min-width: 300px;
     border-radius: 5px 5px 20px 5px;
+    transition: all .3s ease;
 }
 #cards .card h1{
     font-size: 1.7rem;
@@ -243,14 +244,23 @@ body {
     font-size: 1.6rem;
 }
 
+#cards .card:hover{
+    border: 1px solid #08b4f4;
+    margin-top: -60px;
+    border-radius: 20px;
+}
 
 
 
 /* CORES COMEÇO*/
 .mat{color: #249cff;}
-.port{color: #ff936c ;}
-.hist{color: #a52a2a;}
+.port{color: #fb6f3c ;}
+.hist{color: #a54b2a;}
 .geo{color: #008000;}
+.quim{color: ;}
+.bio{color: ;}
+.fis{color: ;}
+.ing{color: ;}
 /* CORES FINAL */
 
 /* MAIN FINAL */
@@ -356,8 +366,36 @@ body {
         max-width: 15vw;
         margin-top: 1px;
     }
-
     /* MENU FIM */
+
+    /* START */
+    #start{
+        flex-direction: column;
+    }
+    #start .text{
+        margin-bottom: 20px;
+    }
+    #start .text h1{
+        font-size: 2.3rem;
+    }
+    #start .text p{
+        padding: 0;
+    }
+    #start img.img{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+
+    /* CARDS */
+    #cards{
+        text-align: center;
+        justify-content: center;
+    }
+    #cards .card:hover{
+        margin-top: 0;
+    }
 }
 
 
@@ -381,7 +419,7 @@ body {
 
 
 
-@keyframes sobeesce {
+@keyframes sobedesce {
     0%{
         margin-top: -7vh;
     }   
