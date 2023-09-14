@@ -231,7 +231,8 @@ body {
     margin-top: 10vh;
     padding: 10px;
     flex-wrap: wrap;
-    justify-content: center;
+
+
 }
 
 #cards .card {
@@ -452,6 +453,12 @@ body {
 
     #cards .card:hover {
         margin-top: 0;
+    }
+
+    .faleconosco {
+
+        width: 21%;
+
     }
 }
 
