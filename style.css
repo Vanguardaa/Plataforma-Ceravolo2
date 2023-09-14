@@ -226,13 +226,15 @@ body {
 
 
 /* CARDS */
-#cards{
+#cards {
     display: flex;
     margin-top: 10vh;
     padding: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
-#cards .card{
+
+#cards .card {
     padding: 30px;
     margin: 5px;
     background-color: #0e1414;
@@ -242,20 +244,23 @@ body {
     border-radius: 5px 5px 20px 5px;
     transition: all .3s ease;
 }
-#cards .card h1{
+
+#cards .card h1 {
     font-size: 1.7rem;
     font-family: 'Aldrich', sans-serif;
     margin: 10px 0;
 }
-#cards .card p{
+
+#cards .card p {
     font-size: .8rem;
     font-family: 'montserrat', sans-serif;
 }
-#cards .card i{
+
+#cards .card i {
     font-size: 1.6rem;
 }
 
-#cards .card:hover{
+#cards .card:hover {
     border: 1px solid #08b4f4;
     margin-top: -60px;
     border-radius: 20px;
@@ -264,20 +269,55 @@ body {
 
 
 /* CORES COMEÇO*/
-.mat{color: #249cff;}
-.port{color: #fb6f3c ;}
-.hist{color: #a54b2a;}
-.geo{color: #008000;}
-.quim{color: #fff;}
-.bio{color: #fff;}
-.fis{color: #fff;}
-.ing{color: #fff;}
+.mat {
+    color: #249cff;
+}
+
+.port {
+    color: #fb6f3c;
+}
+
+.hist {
+    color: #812808;
+}
+
+.geo {
+    color: #dcb907;
+}
+
+.quim {
+    color: #9c0fc7;
+}
+
+.bio {
+    color: #008000;
+}
+
+.fis {
+    color: #1711c5;
+}
+
+.ing {
+    color: #ff0000;
+}
+
 /* CORES FINAL */
 
 /* MAIN FINAL */
 
 
+/* FOOTER START*/
+.faleconosco {
 
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 9%;
+    cursor: pointer;
+
+}
+
+/* FOOTER FINAL*/
 
 
 
@@ -377,22 +417,27 @@ body {
         max-width: 15vw;
         margin-top: 1px;
     }
+
     /* MENU FIM */
 
     /* START */
-    #start{
+    #start {
         flex-direction: column;
     }
-    #start .text{
+
+    #start .text {
         margin-bottom: 20px;
     }
-    #start .text h1{
+
+    #start .text h1 {
         font-size: 2.3rem;
     }
-    #start .text p{
+
+    #start .text p {
         padding: 0;
     }
-    #start img.img{
+
+    #start img.img {
         width: 100%;
         margin: 0;
         margin-bottom: 40px;
@@ -400,11 +445,12 @@ body {
 
 
     /* CARDS */
-    #cards{
+    #cards {
         text-align: center;
         justify-content: center;
     }
-    #cards .card:hover{
+
+    #cards .card:hover {
         margin-top: 0;
     }
 }
