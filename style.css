@@ -206,10 +206,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#start img.img {
+#start img.imgmen {
     z-index: 4;
-    width: 800px;
-    margin-left: -14vw;
+    width: 660px;
+    margin-left: -6vw;
     border: 1px solid #057eaa;
     border-radius: 10px;
 }
