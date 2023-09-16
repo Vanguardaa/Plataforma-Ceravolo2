@@ -195,21 +195,24 @@ body {
 }
 
 #start .text h1 {
-    font-size: 5rem;
+    font-size: 4.4rem;
     font-family: 'Aldrich', sans-serif;
     white-space: nowrap;
 
 }
 
 #start .text p {
-    padding-right: 22vw;
+    font-size: 1.4rem;
+    padding-right: 6vw;
+    padding-top: 12px;
+    text-align: justify;
     font-family: 'Montserrat', sans-serif;
 }
 
 #start img.imgmen {
     z-index: 4;
     width: 660px;
-    margin-left: -6vw;
+    margin-left: 1.1vw;
     border: 1px solid #057eaa;
     border-radius: 10px;
 }
