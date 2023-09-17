@@ -20,6 +20,7 @@ btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
 
 
+
 // Menu fecha ao ser clicado
 const menuf1 = document.querySelector('.btn1');
 const menuf2 = document.querySelector('.btn2');
@@ -35,6 +36,19 @@ menuf3.addEventListener('click', function () {
 });
 
 
+
+//esconder o faleconosco após descer 
+
+window.addEventListener('scroll', function () {
+    var div = document.querySelector('#faleconosco');
+    var posiesconde = 300;  // A posição na página em que vai esconder
+
+    if (window.scrollY >= posiesconde) {
+        div.style.display = 'none';  // Esconder a img quando a posição de rolagem atingir o limite
+    } else {
+        div.style.display = 'block';  // Mostrar a img caso contrário
+    }
+});
 
 
 

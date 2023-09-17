@@ -152,64 +152,84 @@ body {
 
 
 /* MAIN COMEÇO */
-.comeco{
+.comeco {
     display: flex;
-    padding: 3vh  5vw;
+    padding: 3vh 5vw;
     justify-content: center;
 }
-.comeco h1{
+
+.comeco h1 {
     font-size: 5rem;
     font-family: 'Lisu Bosa', sans-serif;
     margin-bottom: 15px;
 }
-.comeco h1 span{
+
+.comeco h1 span {
     color: var(--azul-escuro);
     font-size: 5.3rem;
 }
-.left{
+
+.left {
     width: 50vw;
 }
-.right{
+
+.right {
     width: 50vw;
 }
+
 /* MAIN FINAL */
 
 
 /* MAIN COMEÇO */
-#start{
+#start {
     display: flex;
     padding: 30px;
     overflow-x: hidden;
 
 }
-#start .text{
+
+#start .text {
     float: left;
     position: relative;
     z-index: 5;
 }
-#start .text h1{
-    font-size: 5rem;
+
+#start .text h1 {
+    font-size: 4.4rem;
     font-family: 'Aldrich', sans-serif;
     white-space: nowrap;
     text-shadow: 5px 5px 20px #000;
 
 }
+<<<<<<< HEAD
 #start .text p{
     padding-right: 22vw;
     color: #d4f4ff;
+}
+=======
+
+#start .text p {
+    font-size: 1.4rem;
+    padding-right: 6vw;
+    padding-top: 12px;
+    text-align: justify;
+>>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     font-family: 'Montserrat', sans-serif;
 }
-#start img.img{
+
+#start img.imgmen {
     z-index: 4;
-    width: 800px;
-    margin-left: -14vw;
+    width: 660px;
+    margin-left: 1.1vw;
     border: 1px solid #057eaa;
     border-radius: 10px;
 }
-#start h1 span{
+
+#start h1 span {
     color: #08b4f4;
 }
-#start i{
+
+#start i {
     background-color: red;
 }
 
@@ -217,13 +237,22 @@ body {
 
 
 /* CARDS */
-#cards{
+#cards {
     display: flex;
+<<<<<<< HEAD
     margin-top: 20vh;
     padding: 10px;
+=======
+    margin-top: 17vh;
+    padding: 15px;
+>>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     flex-wrap: wrap;
+    position: absolute;
+
+
 }
-#cards .card{
+
+#cards .card {
     padding: 30px;
     margin: 5px;
     background-color: #0e1414;
@@ -233,20 +262,33 @@ body {
     border-radius: 5px 5px 20px 5px;
     transition: all .3s ease;
 }
+<<<<<<< HEAD
 #cards .card h1{
     font-size: 1.2rem;
+=======
+
+#cards .card h1 {
+    font-size: 1.7rem;
+>>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     font-family: 'Aldrich', sans-serif;
     margin: 10px 0;
 }
-#cards .card p{
+
+#cards .card p {
     font-size: .8rem;
     font-family: 'montserrat', sans-serif;
 }
+<<<<<<< HEAD
 #cards .card i{
     font-size: 1.2rem;
+=======
+
+#cards .card i {
+    font-size: 1.6rem;
+>>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
 }
 
-#cards .card:hover{
+#cards .card:hover {
     border: 1px solid #08b4f4;
     margin-top: -60px;
     border-radius: 20px;
@@ -255,6 +297,7 @@ body {
 
 
 /* CORES COMEÇO*/
+<<<<<<< HEAD
 .mat{color: #249cff;}
 .port{color: #ff5959 ;}
 .hist{color: #fbff00;}
@@ -263,12 +306,57 @@ body {
 .bio{color: #008000;}
 .fis{color: #7e5858;}
 .ing{color: #7700ff;}
+=======
+.mat {
+    color: #249cff;
+}
+
+.port {
+    color: #fb6f3c;
+}
+
+.hist {
+    color: #812808;
+}
+
+.geo {
+    color: #dcb907;
+}
+
+.quim {
+    color: #9c0fc7;
+}
+
+.bio {
+    color: #008000;
+}
+
+.fis {
+    color: #1711c5;
+}
+
+.ing {
+    color: #ff0000;
+}
+
+>>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
 /* CORES FINAL */
 
 /* MAIN FINAL */
 
 
+/* FOOTER START*/
+#faleconosco {
 
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 9%;
+    cursor: pointer;
+
+}
+
+/* FOOTER FINAL*/
 
 
 
@@ -368,22 +456,32 @@ body {
         max-width: 15vw;
         margin-top: 1px;
     }
+
     /* MENU FIM */
 
     /* START */
-    #start{
+    #start {
         flex-direction: column;
     }
-    #start .text{
+
+    #start .text {
         margin-bottom: 20px;
     }
+<<<<<<< HEAD
     #start .text h1{
         font-size: 1.9rem;
+=======
+
+    #start .text h1 {
+        font-size: 2.3rem;
+>>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     }
-    #start .text p{
+
+    #start .text p {
         padding: 0;
     }
-    #start img.img{
+
+    #start img.img {
         width: 100%;
         margin: 0;
         margin-bottom: 40px;
@@ -391,19 +489,26 @@ body {
 
 
     /* CARDS */
-    #cards{
+    #cards {
         text-align: center;
         justify-content: center;
         margin-top: 10vh;
     }
-    #cards .card:hover{
+
+    #cards .card:hover {
         margin-top: 0;
+    }
+
+    .faleconosco {
+
+        width: 21%;
+
     }
 }
 
 
 /* ANIMAÇÕES */
-.transition{
+.transition {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -412,27 +517,40 @@ body {
     color: #057eaa;
     font-size: 2rem;
     animation-name: sobedesce;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     z-index: 1;
+    position: absolute;
 }
-.transition i:not(:first-child){
+
+.transition i:not(:first-child) {
     margin-top: -15px;
 }
 
 
 
 @keyframes sobedesce {
+<<<<<<< HEAD
     0%{
         margin-top: -6vh;
     }   
+=======
+    0% {
+        margin-top: -7vh;
+    }
+>>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
 
-    50%{
+    50% {
         margin-top: -2vh;
     }
 
+<<<<<<< HEAD
     100%{
         margin-top: -6vh;
+=======
+    100% {
+        margin-top: -7vh;
+>>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     }
 }
