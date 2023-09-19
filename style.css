@@ -201,19 +201,10 @@ body {
     text-shadow: 5px 5px 20px #000;
 
 }
-<<<<<<< HEAD
 #start .text p{
     padding-right: 22vw;
     color: #d4f4ff;
-}
-=======
 
-#start .text p {
-    font-size: 1.4rem;
-    padding-right: 6vw;
-    padding-top: 12px;
-    text-align: justify;
->>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -239,13 +230,8 @@ body {
 /* CARDS */
 #cards {
     display: flex;
-<<<<<<< HEAD
     margin-top: 20vh;
     padding: 10px;
-=======
-    margin-top: 17vh;
-    padding: 15px;
->>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     flex-wrap: wrap;
     position: absolute;
 
@@ -262,14 +248,8 @@ body {
     border-radius: 5px 5px 20px 5px;
     transition: all .3s ease;
 }
-<<<<<<< HEAD
 #cards .card h1{
     font-size: 1.2rem;
-=======
-
-#cards .card h1 {
-    font-size: 1.7rem;
->>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     font-family: 'Aldrich', sans-serif;
     margin: 10px 0;
 }
@@ -278,14 +258,8 @@ body {
     font-size: .8rem;
     font-family: 'montserrat', sans-serif;
 }
-<<<<<<< HEAD
 #cards .card i{
     font-size: 1.2rem;
-=======
-
-#cards .card i {
-    font-size: 1.6rem;
->>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
 }
 
 #cards .card:hover {
@@ -297,7 +271,6 @@ body {
 
 
 /* CORES COMEÇO*/
-<<<<<<< HEAD
 .mat{color: #249cff;}
 .port{color: #ff5959 ;}
 .hist{color: #fbff00;}
@@ -306,40 +279,6 @@ body {
 .bio{color: #008000;}
 .fis{color: #7e5858;}
 .ing{color: #7700ff;}
-=======
-.mat {
-    color: #249cff;
-}
-
-.port {
-    color: #fb6f3c;
-}
-
-.hist {
-    color: #812808;
-}
-
-.geo {
-    color: #dcb907;
-}
-
-.quim {
-    color: #9c0fc7;
-}
-
-.bio {
-    color: #008000;
-}
-
-.fis {
-    color: #1711c5;
-}
-
-.ing {
-    color: #ff0000;
-}
-
->>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
 /* CORES FINAL */
 
 /* MAIN FINAL */
@@ -467,14 +406,8 @@ body {
     #start .text {
         margin-bottom: 20px;
     }
-<<<<<<< HEAD
     #start .text h1{
         font-size: 1.9rem;
-=======
-
-    #start .text h1 {
-        font-size: 2.3rem;
->>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     }
 
     #start .text p {
@@ -531,26 +464,15 @@ body {
 
 
 @keyframes sobedesce {
-<<<<<<< HEAD
     0%{
         margin-top: -6vh;
     }   
-=======
-    0% {
-        margin-top: -7vh;
-    }
->>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
 
     50% {
         margin-top: -2vh;
     }
 
-<<<<<<< HEAD
     100%{
         margin-top: -6vh;
-=======
-    100% {
-        margin-top: -7vh;
->>>>>>> c97da9e5358011a17abae691a70159fe7d10f03a
     }
 }
